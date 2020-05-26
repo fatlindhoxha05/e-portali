@@ -64,11 +64,55 @@ a :hover{ text-decoration: none; color:#F9B500; }
     padding: 0.5%;
     margin: 1%;
     
- 
-   
-   
-   
 }
+   /**Log in form and register form**/
+.login-form{
+padding: 3% 30%;
+margin: auto;
+}
+.form{
+
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+.text
+{
+  font-family: 'Roboto', sans-serif;
+  color: #0d0d0d;
+  font-style: bold;
+}
+.form input {
+  font-family: 'Roboto', sans-serif;
+  outline: 1;
+  background: #f2f2f2;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 4%;
+  
+}
+.form button{
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  
+}
+.form .message {
+  margin: 1%;
+  color: #0d0d0d;
+
+}
+.form .message a {
+  color: #0d0d0d;
+}
+
+
+
+
+
+     /** End ofLog in form and register form**/
+   
+   
+
 .section {
   width: 100%;
   display: inline-flex;
@@ -210,7 +254,7 @@ a :hover{ text-decoration: none; color:#F9B500; }
 
   .card1 {
     width: auto;
-    margin: 2%;
+    margin: 3%;
     background-image: url("");
     position: relative;
     display: -webkit-box;
@@ -249,8 +293,8 @@ a :hover{ text-decoration: none; color:#F9B500; }
 .footer{
     width: 100%;
     height: auto;
-    color: blanchedalmond;
-    background: black;
+    color: black;
+    background:  rgba(44, 62, 80, 0.7);
   
 }
 .innerfooter{
@@ -279,7 +323,7 @@ margin-left: 3%;
  width: 160%;
   margin-top: 2%;
     text-decoration: none;
-    color: blanchedalmond;
+    color: black;
     padding-top: 8%;
     text-align: center;
 padding-left: 5%;
@@ -293,7 +337,7 @@ padding-left: 5%;
  width: 160%;
   margin-top: 2%;
     text-decoration: none;
-    color: blanchedalmond;
+    color: black;
     padding-top: 4%;
     text-align: center;
    
@@ -306,7 +350,7 @@ padding-left: 5%;
  width: 160%;
   margin-top: 3%;
     text-decoration: none;
-    color: blanchedalmond;
+    color: black;
     padding-top: 4%;
     text-align: center;
    
@@ -315,3 +359,198 @@ padding-left: 5%;
  a{
    text-decoration: none;
  }
+
+
+ /* literatur */
+.tablerow1{
+  border-bottom: solid rgb(250, 247, 247) 1px;
+  background-color: rgb(55, 53, 56);
+  padding: 5% 3% ;
+  width: 290%;
+}
+.row1
+{
+    width:auto;
+   
+}
+
+.cardss{
+    width: 100%;
+    display: inline-flex;
+}
+.card1-list{
+  width: 100%;
+}
+/*literatur */
+.btn {
+  cursor: pointer;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.65rem;
+  font-weight: bold;
+  letter-spacing: 0.025rem;
+  text-transform: uppercase;
+  color:rgb(17, 17, 17);
+  background-color:rgb(252, 248, 248);
+  border: none;
+}
+/*literatura */
+.article2{
+  
+  font-family: "Lucida Console", Courier, monospace;
+  width: 100%;
+  height: auto;
+  background-color:whitesmoke;
+   color: black;
+  margin-left: 10%;
+  padding-left: 4%;
+}
+
+.card2 {
+  width:auto;
+  margin-top:40%;
+  margin-left:25%;
+  background-image: url("");
+  position: relative;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: end;
+          align-items: flex-end;
+  overflow: hidden;
+  padding: 4rem;
+  text-align: center;
+  color: black;
+  background-color: rgb(59, 59, 59);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+}
+.articlet{
+
+  font-family: "Lucida Console", Courier, monospace;
+  width: 100%;
+  height: auto;
+  background-color: rgb(240, 235, 235);
+  color: rgb(12, 12, 12);
+  margin: 2%;
+
+
+  padding-left: 1%;
+}
+
+.cardt {
+  width: auto;
+  margin: 3%;
+  margin-left: 20%;
+  background-image: url("");
+  position: relative;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: end;
+          align-items: flex-end;
+  overflow: hidden;
+  padding: 4rem;
+  text-align: center;
+  color: black;
+  background-color: rgb(58, 57, 57);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+}/*fakte */
+.news-board{
+  display: inline-block;
+  width: 80%;
+  margin-top: 4%;
+  margin-left: 5%;
+  padding: 5%;
+  background-color:whitesmoke;
+}
+.news-board h3{
+  display: inline-block;
+  background-color:whitesmoke;
+  columns: #1111e1;
+  font-size:  16px;
+  font-weight:  800;
+  margin-left: 40%;
+  padding: 10px;
+  width:  100;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.news-roller{
+  display: inline-block;
+  background-color: #fff;
+
+}
+.news-roller p{
+   width: 100%;
+   display: inline-block;
+   margin-bottom: 20px;
+   margin: 5px;
+   box-shadow: 0 3px 1px gainsboro;
+   box-shadow:border-box ;
+   text-transform: capitalize;
+}
+.news-roller p a{
+    color: #333333;
+}
+.news-roller img{
+   width: 26%;
+   margin-right: 5px;
+}
+.news-roller span{
+  padding: 5px;
+  width: 70px;
+  display: inline-block;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.section2{
+  width: 100%;
+  display: inline-flex;
+  margin-top: 3%;
+}
+.news-list{
+  text-decoration: none;
+  padding: 2%;
+  margin-top: 3%;
+  color: black;
+}
+.news-list-item{
+  text-decoration: none;
+  list-style-type: none;
+  padding: 2%;
+  border-bottom: solid black 1px;
+  margin-left: 2%;
+  color: black;
+}
+/*contact forma*/
+ input .text {
+  font-size: 2vw;
+}
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  box-sizing: border-box; 
+  margin-top: 6px;
+  margin-bottom: 16px; 
+  resize: vertical ;
+}
+
+
+input[type=submit] {
+  background-color: #fcfafa;
+  color: black;
+  padding: 1%;
+  border: solid black 1px;
+  border-radius: 4px;
+margin: 2%;
+  cursor: pointer;
+}
+
+
+
+input[type=submit]:hover {
+  background-color: #000000;
+  color: white;
+
+}
+
